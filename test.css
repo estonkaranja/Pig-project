@@ -1,0 +1,51 @@
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0f0e0f;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}  
+.Questions-box{
+  background-origin: padding-box;
+  background-color: #0b0c0c;
+}
+body {
+  background-color: rgb(2, 2, 2);
+}
+.container {
+  text-align: left;
+  width: 20px;
+}
+.dice {
+  display: inline-block;
+  text-align: center;
+}
+body{
+background-color: red
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 4rem;
+  text-shadow: 5px 0 black;
+  color: rgb(128, 0, 0);
+}
+p{
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(128, 0, 0);
+    font-size: 2rem;
+    text-shadow: 5px 0 black;
+}
+img{
+  width: 110px;
+}
+footer{
+  margin-top: 10%;
+  text-align: center;
+
+
+}
