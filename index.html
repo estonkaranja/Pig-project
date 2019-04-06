@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootsrap/3.3.7/css/bootstrap.min.css"
+        intergrety="trap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Erica+one|ROboto" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/test.css" type="text/css">
+    <script src="js/scripts.js" type="text/javascripts"></script>ipt src="js/scripts.js" type="text/javascripts">
+    </script>
+    <scripts src="http://code.jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcLzy3oi35EouyE="
+        crossorigin="anonymous"></scripts>
+    <script src="js/scripts.js"></script>
+    <title>Pig dice</title>
+</head>
+
+<body>
+    <h1 id="title">Pig Dice</h1>
+    <hr>
+    <style>
+        .headcenter {
+            text-align: center;
+        }
+
+        body {
+            text-align: center;
+            color: rgb(115, 128, 0);
+            
+        }
+         html {
+            background: url(data:image/jpeg;base64,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)no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+    <div var transEndEventNames={ WebkitTransition : 'webkitTransitionEnd' , MozTransition : 'transitionend' ,
+        OTransition : 'oTransitionEnd otransitionend' , transition : 'transitionend' }>
+        <button type="button" class="btn btn-primary">Roll</button>
+        <button type="button" class="btn btn-secondary">Play</button>
+        <button type="button" class="btn btn-success">success</button>
+        <button type="button" class="btn btn-danger">Fail</button>
+        <button type="button" class="btn btn-warning">Repeat</button>
+        <button type="button" class="btn btn-info">Failed</button>
+        <button type="button" class="btn btn-light">Bad</button>
+        <button type="button" class="btn btn-dark">Good</button>
+        <div class="Questions-box"></div>
+
+        <hr>
+
+
+        <button type="button" class="btn btn-link">Link</button>
+        <hr>
+
+        <a class="btn btn-primary" href="https://github.com/estonkaranja/Pig-Dice.io" role="button">Link</a>
+
+        <body
+            background="data:image/jpeg;base64,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"
+            alt="photo of Dice"></body>
+
+        <div class="container">
+            <div class="row">
+                <div class="player-col col-md-4">
+                    <h2><strong Player 1></h2>
+                    <hr>
+                    <div id="player-one-buttons">
+                        <button type="submit" class="btn btn-primary" name="button" id="player-one-first">Roll</button>
+                        <button type="submit" class="btn btn-info" name="button" id="player-one-second">Play</button>
+                    </div>
+
+                    <h3><strong Running Total></h3>
+                    <div id="player-one-running">
+                    </div>
+                    <h3><strong Score:></h3>
+                    <h4><span id="player-one-score"></h4>
+                </div>
+                <scripts src="scripts.js"></scripts>
+                <div class="col-md-4">
+                    <div id="dice-image">
+                        
+                        <h2><a href="https://www.github.com/estonkaranja/Pig-project/.git"><button>Link</button></h2>
+                        <p>Win<br>Play<br>Score</p>
+                    </div>
+                    <p><span class="player-one-rolls-one"><strong>rolled a 1!></span></p>
+                    <p><span class="player-one-rolls-one"><strong turn is over.></span></p>
+
+                    <div id="winnermic">
+                    </div>
+
+                </div>
+                <hr>
+                <div class="player-colcol-md-4">
+                    <h2>Player 2 </h2>
+                    <img src="data:image/jpeg;base64,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"
+                            id="dice-pic">
+                    <div id: player-two-buttons>
+                        <button type="submit" class="btn btn-warning" name="button" id="player-two-roll"> Roll>
+                                <button type="submit" class="btn btn-secondary" name="button"
+                                    id="player-two-play"><strong Play>
+                    </div>
+                    <div class="Questions-box"></div>
+                    <hr>
+                    <h3>Running Total</h3>
+                    <button type="menu" class="btn btn-primary" name="button" id="Running Total"> Running Total>
+                            <div id="player-two-running">
+
+                            </div>
+                            <h3> Score:</h3>
+                            <button type="submit" class="btn btn-warning" name="button" id="Score"> Score:>
+                                    <h4><span id="player-two-score"></h4>
+                                        
+            <script src="js/bootstrap.min.js"></script>
+                                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                                    </div>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
