@@ -38,6 +38,9 @@
             background-size: cover;
         }
     </style>
+     
+       <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<marquee scrollamount="4" direction="left" behaviour="scroll">
     <div var transEndEventNames={ WebkitTransition : 'webkitTransitionEnd' , MozTransition : 'transitionend' ,
         OTransition : 'oTransitionEnd otransitionend' , transition : 'transitionend' }>
         <button type="button" class="btn btn-primary">Roll</button>
@@ -49,7 +52,7 @@
         <button type="button" class="btn btn-light">Bad</button>
         <button type="button" class="btn btn-dark">Good</button>
         <div class="Questions-box"></div>
-
+        </marquee>
         <hr>
 
 
