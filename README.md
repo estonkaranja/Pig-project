@@ -37,7 +37,7 @@ HTML is used to format the user's scores and body of the website that is to make
 Css is also used to make the website have colours and have visual descriptions.
 Scripts.js is also used to make the website have changes in all the website made...
 
-<a href="https://estonkaranja.github.io/Pig-project/>click here </a>
+<a href="https://estonkaranja.github.io/Pig-project/> click here </a>
          
 ---
 
